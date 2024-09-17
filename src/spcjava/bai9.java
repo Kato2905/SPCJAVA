@@ -10,10 +10,16 @@ import java.util.Scanner;
  * @author Administrator
  */
 public class bai9 {
-    public static void main(String[] args) {
-        System.out.println("BANG CUU CHUONG");
+     public static void main(String[] args) {
+        System.out.println("BangCuuChuong");
         Scanner sc = new Scanner(System.in);
-        
+        System.out.println("Nhap cuu chuong:");
+        int a;
+        a = sc.nextInt();
+        for (int i=1;i<=10;i++)
+                {
+                    System.out.println(a+" x "+i+"="+a*i);
+                }
         
         
     }
