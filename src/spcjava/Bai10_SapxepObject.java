@@ -58,5 +58,7 @@ public class Bai10_SapxepObject {
                 System.out.println("Hoc luc gioi");
             }
         }
-    }    
+    }
 }
+        //for(int x=o; x<n; x++);{
+    //for(int y=0; x<n; y++);
